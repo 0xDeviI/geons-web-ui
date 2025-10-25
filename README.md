@@ -1,26 +1,18 @@
-# Portfolio Template
-Inspired from [Magic UI](https://magicui.design) Portfolio Template & [Dillion Verma](https://github.com/dillionverma)
-Build with Svelte, [shadcn-svelte](https://www.shadcn-svelte.com) and [Svelte-Animations](https://animation-svelte.vercel.app)
-
-## Features
----
-- Setup only takes a few minutes by editing the [single config file](https://github.com/SikandarJODD/portfolio-template/blob/main/src/lib/data/resume.ts)
-- Built using SvelteKit, Typescript, Shadcn/UI, TailwindCSS, Svelte - Motion, Svelte Animations
-- Responsive for different devices
-- Optimized for Svelte and Vercel
+# GeoNS Web UI
+Default Web UI for [geoNS-core](https://github.com/0xDeviI/geoNS-core)
 
 ## Getting Started
 ---
 1. Clone the repository
 
 ```bash
-git clone https://github.com/SikandarJODD/portfolio-template
+git clone https://github.com/0xDeviI/geons-web-ui
 ```
 
 2. Move into the project directory
 
 ```bash
-cd portfolio-template
+cd geons-web-ui
 ```
 
 3. Install dependencies
@@ -35,4 +27,5 @@ npm install
 npm run dev
 ```
 
-5. Open the [Config File](https://github.com/SikandarJODD/portfolio-template/blob/main/src/lib/data/resume.ts) and make changes
+## Contribution
+We don't accept contributions yet. But we're planning to set up contribution's docs and procedures as soon as possible. 

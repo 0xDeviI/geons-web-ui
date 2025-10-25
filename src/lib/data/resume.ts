@@ -37,8 +37,8 @@ export let DATA = {
 	description:
 		'Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.',
 	summary:
-		'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
-	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
+		'geoNS is an [open-source project](/#opensource) born from the experience of living under [Iran’s nationwide internet censorship](https://en.wikipedia.org/wiki/Internet_censorship_in_Iran). It aims to map real-world internet accessibility through user-sourced data tied to geography, time, and network providers. Unlike traditional monitoring tools that rely on centralized servers, geoNS captures the lived experience of censorship directly from users’ devices.<br><br>*"What is measured cannot be easily denied. What is documented becomes harder to erase."*  \n— [The geoNS Collective](/#team)',
+	avatarUrl: '/geons-logo.png',
 	skills: [
 		'Svelte',
 		'Sveltekit',

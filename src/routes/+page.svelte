@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>{DATA.name}</title>
+	<title>GeoNS</title>
 	<meta name="description" content={DATA.description} />
 	<meta property="og:title" content={DATA.name} />
 	<meta property="og:description" content={DATA.description} />
@@ -41,16 +41,15 @@
 					<BlurFade
 						delay={BLUR_FADE_DELAY}
 						class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-						yOffset={8}>Hi, I'm Bhide 👋</BlurFade
+						yOffset={8}>GeoNS</BlurFade
 					>
 					<BlurFade class="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY}
-						>Software Engineer turned Entrepreneur. I love building things and helping people. Very
-						active on Twitter.</BlurFade
+						>Decentralized Internet Availability Logger</BlurFade
 					>
 				</div>
 				<BlurFade delay={BLUR_FADE_DELAY}>
-					<Avatar.Root class="size-28 border">
-						<Avatar.Image alt={DATA.name} src={DATA.avatarUrl} />
+					<Avatar.Root class="size-28">
+						<Avatar.Image alt="GeoNS Logo" src="/geons-logo.png" />
 						<Avatar.Fallback>{DATA.initials}</Avatar.Fallback>
 					</Avatar.Root>
 				</BlurFade>
@@ -72,7 +71,7 @@
 	<section id="work">
 		<div class="flex min-h-0 flex-col gap-y-3">
 			<BlurFade delay={BLUR_FADE_DELAY}>
-				<h2 class="text-xl font-bold">Work Experience</h2>
+				<h2 class="text-xl font-bold">Services</h2>
 			</BlurFade>
 			{#each DATA.work as work, id}
 				<BlurFade delay={BLUR_FADE_DELAY * 1.2 + id * 0.05}>
